@@ -3,6 +3,7 @@
     --secondary-color1:#1d1d1f;
     --third-color2: #fff;
     --background-color1: #f4f4f4;
+    
 }
 
 *{
@@ -11,6 +12,7 @@
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+    -webkit-user-drag: none;
 }
 body{
     margin:0;
@@ -19,9 +21,9 @@ body{
 }
 
 #linkedinLink, #logo{
-    width: 10%;
+    width: 170px;
     border:none;
-    border-radius: 10vw;
+    border-radius: 500px;
     letter-spacing: .5px;
     transition:ease-in .2s;
     text-decoration: none;
@@ -96,6 +98,7 @@ body{
     margin:auto;
     display: flex;
     align-items: center;
+    
 
 }
 #nav-bar a:hover{
@@ -106,7 +109,7 @@ body{
 
 
 #nav-bar{
-    width:20%;
+    width:300px;
     padding: 10px 50px;
     border-radius: 10vw;
     display: flex;
@@ -117,9 +120,7 @@ body{
 .arrow{
     transition: ease-in-out .15s;
 }
-.arrow:hover{
-    transform: rotate(45deg);
-}
+
 .containerRow{
     position: relative;
     top: 35vh;
@@ -176,9 +177,7 @@ body{
     
 }
 @media (max-width : 1000px){
-    #star{
-        display: none;
-    }
+    
     #linkedinLink{
         display: none;
     }
