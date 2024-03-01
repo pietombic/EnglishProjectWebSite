@@ -1,55 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Pietro Tombaccini</title>
 </head>
+
 <body>
     <div id="fixed-menu">
-        <a href="https://github.com/pietombic" target="_blank" id="logo">PIETOMBI<svg id="star"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 310 381.25" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
-   
-
-           
-          </style></defs><g><path class="fil0" d="M155 0c0,0 -5,106 -15,112 -11,5 -55,-28 -55,-28 0,0 37,42 31,52 -7,10 -116,16 -116,16 0,0 109,7 116,17 6,10 -31,52 -31,52 0,0 44,-33 55,-28 10,6 15,112 15,112 0,0 5,-106 16,-112 11,-5 54,28 54,28 0,0 -36,-42 -30,-52 6,-10 115,-17 115,-17 0,0 -109,-6 -115,-16 -6,-10 30,-52 30,-52 0,0 -43,33 -54,28 -10,-6 -15,-97 -16,-112z"/></g></svg></a>
+        <a href="https://github.com/pietombic" target="_blank" id="logo">PIETOMBI<svg id="star"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                version="1.1" style="
+                        shape-rendering: geometricPrecision;
+                        text-rendering: geometricPrecision;
+                        image-rendering: optimizeQuality;
+                    " viewBox="0 0 310 381.25" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+                <defs>
+                    <style type="text/css"></style>
+                </defs>
+                <g>
+                    <path class="fil0"
+                        d="M155 0c0,0 -5,106 -15,112 -11,5 -55,-28 -55,-28 0,0 37,42 31,52 -7,10 -116,16 -116,16 0,0 109,7 116,17 6,10 -31,52 -31,52 0,0 44,-33 55,-28 10,6 15,112 15,112 0,0 5,-106 16,-112 11,-5 54,28 54,28 0,0 -36,-42 -30,-52 6,-10 115,-17 115,-17 0,0 -109,-6 -115,-16 -6,-10 30,-52 30,-52 0,0 -43,33 -54,28 -10,-6 -15,-97 -16,-112z" />
+                </g>
+            </svg></a>
         <nav id="nav-bar">
-            <a href="">JS</a>
-            <a href="">HTML</a>
-            <a href="">CSS</a>
+            <a href="#inspo">INSPO</a>
+            <a href="#code">CODE</a>
+            <a href="#publish">PUBLISH</a>
         </nav>
-        <a target="_blank" href="https://www.linkedin.com/in/pietro-tombaccini-bab7712a8/" id="linkedinLink">LINKEDIN<span id="circle"></span></a>
+        <a target="_blank" href="https://www.linkedin.com/in/pietro-tombaccini-bab7712a8/"
+            id="linkedinLink">LINKEDIN<span id="circle"></span></a>
     </div>
-    
-    
+    <div class="container tall">
+        <h1 id="hello" class="big">Hello</h1>
+        <p class="medium light" id="title">
+            I'm Pietro
+        </p>
+        <p class="medium light">I'm studying to be a web developer</p>
+
+    </div>
+    <div class="container">
+        <p class="medium light">This is <strong>my personal</strong> little guide on how to make a website</p>
+        <p class="medium light" style="margin-top:10vh">Let's start</p>
+    </div>
+    <div class="container  justify">
+        <h2 class="medium light">1. Choose what to do</h2>
+        <p class="small light">Identify the primary purpose of the website and its goals. This step includes determining the target audience and what actions you want visitors to take. I always prefer to make websites for practice since I'm studying right now and no one would contact me to make a website. One of the most important things is to find a website that you like and try to take inspiration for your website.</p>
+        <p id="par-inps" class="small light">Here's some sites where you can find inspiration:</p>
+    </div>
+    <div id="inspo" class="containerForCards">
+
+        <div class="card">
+            <a href="https://www.awwwards.com/"  target="_blank" class="cardText">AWWARDS</a>
+        </div>
+        <div class="card">
+            <a href="https://minimal.gallery/" target="_blank" class="cardText">Minimal Gallery</a>
+        </div>
+        <div class="card spanCol">
+            <a href="https://www.darkmodedesign.com/" target="_blank" class="cardText">Dark Mode Design</a>
+        </div>
+        <div class="card">
+            <a href="https://refero.design/" target="_blank" class="cardText">Refero</a>
+        </div>
+        <div class="card"><a href="https://stacksorted.com/buttons" target="_blank" class="cardText">Stack Sorted</a></div>
+
+    </div>
+    <div class="container  justify">
+        <h2 class="medium light">2. Build the website in figma</h2>
+        <p class="small light">Before moving to the development phase, use Figma to design the website. Figma allows for collaborative design, prototyping, and feedback collection all in one place. Create wireframes, mockups, and prototypes to visualize the design and layout of your website.</p>
+        <a class="small light" id="figma" target="_blank" href="https://www.figma.com/">Figma website</a>
+        <img id="figma" src="./imgs/figma.png" alt="figma website">
+    </div>
+    <div class="container  justify">
+        <h2 class="medium light">3. Build the html and css code</h2>
+        <p class="small light">Convert the Figma design into a functional website using coding languages such as HTML, CSS, and JavaScript. This step may involve using a content management system (CMS) like WordPress, or building the site from scratch.</p>
+        <p class="small light"> You can use some IDE for this step, below are some of my favorites</p>
+    </div>
+    <div class="containerForCards">
+
+        <div class="card">
+            <a href="https://code.visualstudio.com/"  target="_blank" class="cardText">vs code</a>
+        </div>
+        <div class="card">
+            <a href="https://www.jetbrains.com/webstorm/" target="_blank" class="cardText">web storm</a>
+        </div>
+        <div class="card">
+            <a href="https://www.jetbrains.com/phpstorm/" target="_blank" class="cardText">php storm</a>
+        </div>
+        <div class="card"><a href="https://www.eclipse.org/" target="_blank" class="cardText">Eclipse</a></div>
+        <div class="card spanCol">
+            <a href="https://zed.dev" target="_blank" class="cardText">zed</a>
+        </div>
+
+    </div>
+    <p id="code" class="small light">This are some code snippets</p>
+    <code>&lt;h1&gt;This is a heading&lt;&#47;h1&gt;
+        <br>
+        &lt;!-- HTML --&gt;
+        <br>
+        <br>
+        &lt;p&gt;This is a paragraph&lt;&#47;p&gt;
+        <br>&lt;a id=&quot;link&quot;&gt;This is a link element&lt;&#47;a&gt;
+    </code>
+    <code>&#47;&#47;css
+        <br>
+        #link{
+            <br>
+            &nbsp color: #000;
+            <br>
+        }
+    </code>
+
+
+    <div id="publish" class="container  justify">
+        <h2 class="medium light">4. Publish</h2>
+        <p class="small light">After testing and final revisions, make the website live by publishing it on the web. Ensure all domain and hosting settings are correctly configured.</p>
+        <p class="small light">To publish a website you need to pay a Web Hosting Service such as <a target="_blank" href="https://www.aruba.it/home.aspx">Aruba</a>, so you can register a domain name like <a href="https://www.pietrotombaccini.com/">pietrotombaccini.com</a></p>
+    </div>
+    <div class="container">
+        <img src="./imgs/aruba.png" alt="aruba website">
+        <p class="small light"> Now enjoy your new website and remember to keep it updated!</p>
+    </div>
     <div class="containerRow">
         <div class="row">
-            <p class="text">JAVASCRIPT <span id="line"></span></p>
+            <a href="#inspo" class="text">INPIRATION <span id="line"></span></a>
             <svg class="arrow" width="4vh" height="fit-content" viewBox="0 0 41 41" fill="none">
-                <path d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
             </svg>
         </div>
         <div class="row">
-            <p class="text">HTML <span id="line"></span></p>
+            <a class="text" href="#code">CODE <span id="line"></span></a>
             <svg class="arrow" width="4vh" height="fit-content" viewBox="0 0 41 41" fill="none">
-                <path d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
             </svg>
         </div>
         <div class="row">
-            <p class="text">CSS<span id="line"></span></p>
+            <a href="#publish" class="text">PUBLISH<span id="line"></span></a>
             <svg class="arrow" width="4vh" height="fit-content" viewBox="0 0 41 41" fill="none">
-                <path d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
-                <path d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2093 9.0083L32.2093 8.7583L31.9593 8.7583L29.5571 8.7583L29.3071 8.7583L29.3071 9.0083L29.3071 27.0246L29.3071 27.2746L29.5571 27.2746L31.9593 27.2746L32.2093 27.2746L32.2093 27.0246L32.2093 9.0083Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
+                <path
+                    d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z"
+                    fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
             </svg>
         </div>
     </div>
-    
+
+
     <!-- <div id="container">
         <svg class="arrow" width="40px" height="40px" viewBox="0 0 41 41" fill="none">
             <path d="M29.1967 10.0152L29.0199 9.83841L28.8432 10.0152L7.95359 30.9048L7.77682 31.0815L7.95359 31.2583L9.34623 32.651L9.52301 32.8277L9.69979 32.651L30.5894 11.7614L30.7661 11.5846L30.5894 11.4078L29.1967 10.0152Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
@@ -57,5 +177,10 @@
             <path d="M32.2087 9.00879L32.2087 8.75879L31.9587 8.75879L13.9424 8.75879L13.6924 8.75879L13.6924 9.00879L13.6924 11.411L13.6924 11.661L13.9424 11.661L31.9587 11.661L32.2087 11.661L32.2087 11.411L32.2087 9.00879Z" fill="currentcolor" stroke="currentcolor" stroke-width="0.5"></path>
         </svg>
     </div> -->
+    <div class="container notSotall"><footer>
+        <a href="mailto:hello@pietrotombaccini.com">Contact me!</a>
+    </footer></div>
+    
 </body>
-</html>   
+
+</html>
